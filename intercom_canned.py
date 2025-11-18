@@ -16,8 +16,6 @@ ACTIVATION_KEY = keyboard.Key.f9
 # SEND MESSAGE KEY: Press F10 to send the message
 SEND_KEY = keyboard.Key.f10
 
-# =======================================================
-
 class IntercomAutomation:
     def __init__(self):
         self.active = False
@@ -72,4 +70,5 @@ class IntercomAutomation:
 
 if __name__ == "__main__":
     automation = IntercomAutomation()
+
     automation.start_listener()
